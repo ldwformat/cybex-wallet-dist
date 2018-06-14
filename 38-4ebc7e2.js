@@ -8,7 +8,7 @@
   !*** ./services/GatewayConfig.ts ***!
   \***********************************/
 /*! exports provided: JadePool, GATEWAY_URI, GATEWAY_ID, CALLBACK_URL */
-/*! exports used: GATEWAY_ID, GATEWAY_URI, JadePool */function(e,t,n){"use strict";n.d(t,"c",function(){return a}),n.d(t,"b",function(){return r}),n.d(t,"a",function(){return s});var a={GATEWAY_ACCOUNT:"cybex-jadegateway",ADDRESS_TYPES:{"JADE.ETH":"ETH","JADE.BTC":"BTC","JADE.LTC":"LTC","JADE.USDT":"USDT","JADE.LHC":"LHC","JADE.INK":"INK","JADE.BAT":"BAT","JADE.VEN":"VEN","JADE.OMG":"OMG","JADE.SNT":"SNT","JADE.NAS":"NAS","JADE.KNC":"KNC","JADE.PAY":"PAY","JADE.GET":"GET","JADE.MAD":"MAD","JADE.TCT":"TCT","JADE.DPY":"DPY","JADE.GNX":"GNX","JADE.KEY":"KEY","JADE.MT":"MT","JADE.ENG":"ENG"},ADDRESS_ASSETS:{ETH:"JADE.ETH",BTC:"JADE.BTC",USDT:"JADE.USDT",LTC:"JADE.LTC",LHC:"JADE.LHC",BAT:"JADE.BAT",INK:"JADE.INK",VEN:"JADE.VEN",OMG:"JADE.OMG",SNT:"JADE.SNT",NAS:"JADE.NAS",KNC:"JADE.KNC",PAY:"JADE.PAY",GET:"JADE.GET",MAD:"JADE.MAD",TCT:"JADE.TCT",DPY:"JADE.DPY",GNX:"JADE.GNX",KEY:"JADE.KEY",MT:"JADE.MT",ENG:"JADE.ENG"}},r="https://gateway.cybex.io/gateway",s="CybexGateway"},1387:
+/*! exports used: GATEWAY_ID, GATEWAY_URI, JadePool */function(e,t,n){"use strict";n.d(t,"c",function(){return a}),n.d(t,"b",function(){return r}),n.d(t,"a",function(){return s});var a={GATEWAY_ACCOUNT:"cybex-jadegateway",ADDRESS_TYPES:{"JADE.ETH":"ETH","JADE.BTC":"BTC","JADE.LTC":"LTC","JADE.USDT":"USDT","JADE.LHT":"LHT","JADE.INK":"INK","JADE.BAT":"BAT","JADE.VEN":"VEN","JADE.OMG":"OMG","JADE.SNT":"SNT","JADE.NAS":"NAS","JADE.KNC":"KNC","JADE.PAY":"PAY","JADE.GET":"GET","JADE.MAD":"MAD","JADE.TCT":"TCT","JADE.DPY":"DPY","JADE.GNX":"GNX","JADE.KEY":"KEY","JADE.MT":"MT","JADE.ENG":"ENG"},ADDRESS_ASSETS:{ETH:"JADE.ETH",BTC:"JADE.BTC",USDT:"JADE.USDT",LTC:"JADE.LTC",LHT:"JADE.LHT",BAT:"JADE.BAT",INK:"JADE.INK",VEN:"JADE.VEN",OMG:"JADE.OMG",SNT:"JADE.SNT",NAS:"JADE.NAS",KNC:"JADE.KNC",PAY:"JADE.PAY",GET:"JADE.GET",MAD:"JADE.MAD",TCT:"JADE.TCT",DPY:"JADE.DPY",GNX:"JADE.GNX",KEY:"JADE.KEY",MT:"JADE.MT",ENG:"JADE.ENG"}},r="https://gateway.cybex.io/gateway",s="CybexGateway"},1387:
 /*!***********************************************!*\
   !*** ./components/Utility/AmountSelector.jsx ***!
   \***********************************************/
@@ -51,7 +51,7 @@
 /*! exports provided: default */
 /*! exports used: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/GatewayActions.ts */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Gateway/Gateway.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Account/AccountPage.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/MarketClasses.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/utils.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/GatewayStore.ts */
@@ -87,7 +87,7 @@
   \**********************************************************/
 /*! exports provided: default */
 /*! exports used: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Gateway/Gateway.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Account/AccountPage.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/utils.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayConfig.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayService.ts */
