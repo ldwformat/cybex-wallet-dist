@@ -46,7 +46,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Breakpoints.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Styles.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/index.ts */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Login/LoginSelector.tsx because of ./components/Account/CreateAccountPassword.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Login/LoginSelector.tsx because of ./components/Account/CreateAccount.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/radium/es/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/react-router/es/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/react-translate-component/index.js (<- Module is not an ECMAScript module) */
