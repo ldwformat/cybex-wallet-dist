@@ -1,3 +1,7 @@
+.training {
+  background: #b9dbf0;
+}
+
 .training .step {
   width: 100%;
   text-align: center;
@@ -20,6 +24,48 @@
   height: 846px;
   width: 301px;
   background-color: #0484cb;
+}
+
+.training .content img {
+  width: 174px;
+  margin-left: -87px;
+  left: 50%;
+  position: absolute;
+  top: 80px;
+}
+
+.training .content span {
+  display: block;
+}
+
+.training .content .step-info {
+  width: 226px;
+  font-family: PingFangSC;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  top: 360px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.training .content a {
+  color: #ffc175;
+}
+
+.training .content .spectial {
+  padding-top: 30px;
+  color: #ffc175;
+}
+
+.training .content .last-img {
+  top: 40px;
 }
 
 .training .right-pointer {
@@ -73,7 +119,7 @@
   position: absolute;
   right: 0;
   bottom: 15px;
-  background-color: red;
+  background-color: #ffffff;
 }
 
 .training .gap {
@@ -124,7 +170,7 @@
 .training .container-large .right-top {
   width: 708px;
   height: 411px;
-  background-color: red;
+  background-color: #ffffff;
   position: absolute;
   right: 0;
   top: 0;
@@ -136,6 +182,6 @@
   position: absolute;
   right: 0;
   bottom: 15px;
-  background-color: aqua;
+  background-color: #ffffff;
 }
 

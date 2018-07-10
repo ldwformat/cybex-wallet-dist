@@ -47,7 +47,7 @@
   padding-right: 50px;
 }
 
-.detail .button.primery-button.pre {
+.detail .button.primery-button.reject {
   border: 1px solid #666;
   background: transparent;
   background-image: none;
@@ -121,7 +121,7 @@
 .detail .large-time .icon-time {
   width: 22px;
   height: 22px;
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .detail img {
