@@ -7,7 +7,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/assert/assert.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ObjectId.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/TransactionBuilder.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/index.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
@@ -38,7 +38,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/assert/assert.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ObjectId.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/TransactionBuilder.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/index.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
@@ -277,9 +277,9 @@
 /*! exports provided: default */
 /*! exports used: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/WalletActions.js because of ./components/Account/AccountVesting.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./api/ApplicationApi.js (<- Module uses injected variables (Buffer)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./api/WalletApi.js because of ./actions/CrowdFundActions.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./api/WalletApi.js because of ./components/Modal/BorrowModal.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/account_utils.js because of ./components/Account/AccountMembership.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletDb.js (<- Module uses injected variables (Buffer)) */,
@@ -289,9 +289,9 @@
 /*! exports provided: default */
 /*! exports used: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/WalletActions.js because of ./components/Account/AccountVesting.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./api/ApplicationApi.js (<- Module uses injected variables (Buffer)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./api/WalletApi.js because of ./actions/CrowdFundActions.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./api/WalletApi.js because of ./components/Modal/BorrowModal.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/account_utils.js because of ./components/Account/AccountMembership.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletDb.js (<- Module uses injected variables (Buffer)) */function(e,t,a){"use strict";var n=a(11),r=a(132),i=a(4),o=function(){function e(e,t){for(var a=0;a<t.length;a++){var n=t[a];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,a,n){return a&&e(t.prototype,a),n&&e(t,n),t}}();var s=new(function(){function e(){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,e)}return o(e,[{key:"lookupAccounts",value:function(e,t){return i.a.instance().db_api().exec("lookup_accounts",[e,t])}}]),e}()),l=a(140),c=a(141),u=a(15),d=a(57),p=function(){function e(e,t){for(var a=0;a<t.length;a++){var n=t[a];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,a,n){return a&&e(t.prototype,a),n&&e(t,n),t}}();var m={},h=function(){function e(){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,e)}return p(e,[{key:"accountSearch",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:50,a=e+"_"+t+"}";return function(n){if(!m[a])return m[a]=!0,s.lookupAccounts(e,t).then(function(t){m[a]=!1,n({accounts:t,searchTerm:e})})}}},{key:"setCurrentAccount",value:function(e){return e}},{key:"tryToSetCurrentAccount",value:function(){return!0}},{key:"addStarAccount",value:function(e){return e}},{key:"removeStarAccount",value:function(e){return e}},{key:"transfer",value:function(e,t,a,n,i){var o=arguments.length>5&&void 0!==arguments[5]?arguments[5]:null,s=arguments.length>6&&void 0!==arguments[6]?arguments[6]:"1.3.0",l=arguments[7],u=arguments[8];s=r.a.getFinalFeeAsset(o||e,"transfer",s);try{return function(r){return c.a.transfer({from_account:e,to_account:t,amount:a,asset:n,memo:i,propose_account:o,fee_asset_id:s,vesting:l},u).then(function(e){r(e)})}}catch(e){return console.log("[AccountActions.js:90] ----- transfer error -----\x3e",e),new Promise(function(t,a){a(e)})}}},{key:"createAccount",value:function(e,t,a,n,r,i){return function(o){return d.a.createAccount(e,t,a,n,r,i).then(function(){return o(e),e})}}},{key:"createAccountWithPassword",value:function(e,t,a,n,r,i,o){return function(s){return d.a.createAccountWithPassword(e,t,a,n,r,i,o).then(function(){return s(e),e})}}},{key:"upgradeAccount",value:function(e,t){var a=r.a.getFinalFeeAsset(e,"account_upgrade"),n=l.a.new_transaction();return n.add_type_operation("account_upgrade",{fee:{amount:0,asset_id:a},account_to_upgrade:e,upgrade_to_lifetime_member:t}),u.a.process_transaction(n,null,!0)}},{key:"linkAccount",value:function(e){return e}},{key:"unlinkAccount",value:function(e){return e}},{key:"setPasswordAccount",value:function(e){return e}}]),e}();t.a=n.a.createActions(h)},
@@ -461,7 +461,7 @@
 /*!************************************************!*\
   !*** ./components/Common/index.ts + 7 modules ***!
   \************************************************/
-/*! exports provided: Button, LabelOption, TabLink, Icon, Checkbox, Radio, NavItem, BaseColors, GridentColors, Colors, CommonType, $styleSelect, $styleFlexContainer, $styleFlexAutoWrap, $styleFlexItem, $styleSecondaryText, FlexGrowDivider, Input, LoginAccountInput, LoginPasswordInput, Panel, getId */
+/*! exports provided: BaseColors, GridentColors, Colors, CommonType, Button, LabelOption, TabLink, Icon, Checkbox, Radio, NavItem, $styleSelect, $styleFlexContainer, $styleFlexAutoWrap, $styleFlexItem, $styleSecondaryText, FlexGrowDivider, Input, LoginAccountInput, LoginPasswordInput, Panel, getId */
 /*! exports used: $styleFlexAutoWrap, $styleFlexContainer, $styleFlexItem, $styleSecondaryText, $styleSelect, BaseColors, Button, Checkbox, Colors, FlexGrowDivider, Icon, Input, LabelOption, LoginAccountInput, LoginPasswordInput, NavItem, Panel, TabLink */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Button.tsx because of ./components/Eo/Detail/join.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Colors.ts because of ./components/Eo/Detail/join.tsx */
@@ -470,7 +470,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Input.tsx because of ./components/Account/AssetWhitelist.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Styles.ts because of ./components/Login/Login.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/utils.ts because of ./components/Account/AssetWhitelist.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./utils/index.ts because of ./actions/CrowdFundActions.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./utils/index.ts because of ./components/CrowdFund/AccountCrowdFund.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/prop-types/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/radium/es/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/react-translate-component/index.js (<- Module is not an ECMAScript module) */
@@ -713,11 +713,11 @@
   \**********************************************/
 /*! exports provided: VolumnActions, default */
 /*! exports used: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/AbstractStore.ts because of ./components/Account/RecentTransactions.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/AbstractStore.ts because of ./index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/SettingsStore.ts because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./utils/Market.ts because of ./components/Exchange/ExchangeContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./utils/Utils.ts because of ./stores/CrowdFundStore.ts */
-/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./utils/Utils.ts because of ./components/Utility/Warning.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./api/apiConfig.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/index.js because of ./components/Wallet/Backup.jsx */
@@ -952,12 +952,12 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/SettingsStore.ts because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Blockchain/MemoText.jsx because of ./index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Blockchain/ProposedOperation.jsx because of ./index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/BindToChainState.jsx because of ./components/Swap/SwapContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/ChainTypes.js because of ./components/Swap/SwapContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/FormattedAsset.jsx because of ./components/Account/AccountOverview.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/BindToChainState.jsx because of ./components/Explorer/CommitteeMembers.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/ChainTypes.js because of ./components/Explorer/CommitteeMembers.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/FormattedAsset.jsx because of ./components/Account/AccountVoting.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/LinkToAccountById.jsx because of ./components/Account/AccountOverview.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/LinkToAssetById.jsx because of ./components/Account/AccountOverview.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/TimeAgo.jsx because of ./components/Explorer/Witnesses.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/TimeAgo.jsx because of ./components/Account/AccountMembership.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/TranslateWithLinks.jsx because of ./components/Account/AccountOverview.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/index.js because of ./components/Wallet/Backup.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/alt-react/lib/index.js (<- Module is not an ECMAScript module) */
@@ -1009,16 +1009,16 @@
 /*! no exports provided */
 /*! all exports used */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/alt-container/lib/AltContainer.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./actions/MarketsActions.ts because of ./components/Dashboard/MarketCard.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./actions/MarketsActions.ts because of ./components/Exchange/ExchangeContainer.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/ModalActions.ts because of ./components/Account/AccountDepositWithdraw.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./actions/NotificationActions.ts because of ./components/Account/AccountVestedBalances.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./actions/VolumeActions.ts because of ./components/Exchange/OrderBook.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./actions/NotificationActions.ts because of ./components/Eo/Detail/join.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./actions/VolumeActions.ts because of ./components/Exchange/PriceStat.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Account/AccountImage.tsx because of ./components/Account/AccountDepositWithdraw.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Blockchain/Operation.tsx because of ./components/Account/RecentTransactions.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Button.tsx because of ./components/Utility/AmountSelector.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Colors.ts because of ./components/Utility/AmountSelector.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Common/Colors.ts because of ./components/Eo/Detail/join.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Common/index.ts because of ./components/Utility/AmountSelector.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Forms/PasswordInput.tsx because of ./components/Account/CreateAccountPassword.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Forms/PasswordInput.tsx because of ./components/Account/CreateAccount.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Modal/BaseModal.tsx because of ./components/CrowdFund/AccountCrowdFund.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Modal/BaseModalNew.tsx because of ./components/Utility/Warning.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/TotalBalanceValue.tsx because of ./components/Dashboard/DashboardList.jsx */
@@ -1028,47 +1028,47 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/ModalStore.ts because of ./components/Utility/Warning.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/SettingsStore.ts because of ./components/InitError.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/VolumeStore.ts because of ./components/Exchange/OrderBook.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/VolumeStore.ts because of ./components/Exchange/PriceStat.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./utils/ClassName.ts because of ./components/CrowdFund/CrowdInitModal.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./utils/Market.ts because of ./components/Exchange/ExchangeContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./utils/index.ts because of ./actions/CrowdFundActions.ts */
-/*! ModuleConcatenation bailout: Cannot concat with ./actions/AccountActions.js because of ./components/Swap/SwapContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./actions/IntlActions.js because of ./components/Account/RecentTransactions.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./utils/index.ts because of ./components/CrowdFund/AccountCrowdFund.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./actions/AccountActions.js because of ./components/Login/Login.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./actions/IntlActions.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/SettingsActions.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/TransactionConfirmActions.js because of ./stores/WalletDb.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/WalletUnlockActions.js because of ./stores/WalletDb.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./components/Account/AccountDepositWithdraw.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Account/AccountSelector.jsx because of ./components/Account/AssetWhitelist.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Blockchain/Transaction.jsx because of ./components/Blockchain/Block.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Forms/AccountSelect.jsx because of ./components/Forms/MyAccounts.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Icon/Icon.jsx because of ./components/Explorer/Explorer.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/LoadingIndicator.jsx because of ./components/Swap/SwapContainer.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Icon/Icon.jsx because of ./components/Account/RecentTransactions.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/LoadingIndicator.jsx because of ./components/Explorer/CommitteeMembers.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Settings/AccessSettings.jsx because of ./components/Settings/Settings.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Settings/WebsocketAddModal.jsx because of ./components/InitError.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/AssetName.jsx because of ./components/Account/AccountOverview.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/BindToChainState.jsx because of ./components/Swap/SwapContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/ChainTypes.js because of ./components/Swap/SwapContainer.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/AssetName.jsx because of ./components/Account/AccountVoting.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/BindToChainState.jsx because of ./components/Explorer/CommitteeMembers.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/ChainTypes.js because of ./components/Explorer/CommitteeMembers.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/intlData.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Wallet/WalletManager.jsx (<- Module is referenced from these modules with unsupported syntax: ./Routes.jsx (referenced with import())) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./components/InitError.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/index.js because of ./components/Wallet/Backup.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/alt-react/lib/index.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./lib/common/localStorage.js because of ./components/Swap/SwapContainer.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./lib/common/localStorage.js because of ./components/Utility/Warning.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/counterpart/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/react-foundation-apps/src/action-sheet/index.jsx (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./lib/react-foundation-apps/src/trigger/index.jsx because of ./components/InitError.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./lib/react-foundation-apps/src/trigger/index.jsx because of ./components/CrowdFund/AccountCrowdFund.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/react-foundation-apps/src/utils/foundation-api.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./routerTransition.js because of ./components/Settings/Settings.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/AccountStore.js because of ./components/Swap/SwapContainer.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/BaseStore.js because of ./stores/CrowdFundStore.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/AccountStore.js because of ./components/Account/AccountVestedBalances.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/BaseStore.js because of ./components/Utility/Warning.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/BlockchainStore.js because of ./components/InitError.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/CachedPropertyStore.js because of ./components/Wallet/WalletCreate.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/CachedPropertyStore.js because of ./components/Wallet/WalletManager.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/MarketsStore.js because of ./components/Dashboard/DashboardContainer.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/NotificationStore.js because of ./components/CrowdFund/AccountCrowdFund.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/TransactionConfirmStore.js because of ./components/Transfer/Transfer.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/TransactionConfirmStore.js because of ./components/Eo/Detail/join.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletDb.js (<- Module uses injected variables (Buffer)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletManagerStore.js because of ./components/Wallet/WalletCreate.tsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletUnlockStore.js because of ./components/Swap/SwapContainer.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletManagerStore.js because of ./components/Wallet/WalletManager.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/WalletUnlockStore.js because of ./components/Dashboard/DashboardList.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/prop-types/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/radium/es/index.js */
