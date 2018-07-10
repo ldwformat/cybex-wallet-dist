@@ -20,7 +20,7 @@
 /*! exports provided: DEPOSIT_MODAL_ID, WITHDRAW_MODAL_ID, GatewayActions, default */
 /*! exports used: DEPOSIT_MODAL_ID, GatewayActions, WITHDRAW_MODAL_ID, default */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/NotificationActions.ts */
-/*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayConfig.ts because of ./components/Gateway/Gateway.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayConfig.ts because of ./components/Account/AccountOverview.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayService.ts because of ./components/Gateway/WithdrawModal.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./stores/SettingsStore.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./utils/index.ts */
@@ -118,7 +118,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/AccountActions.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/SettingsActions.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./api/apiConfig.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Account/AccountBalance.jsx because of ./components/DepositWithdraw/blocktrades/BlockTradesBridgeDepositRequest.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Account/AccountBalance.jsx because of ./components/DepositWithdraw/BitKapital.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Account/RecentTransactions.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/DepositWithdraw/BitKapital.jsx (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/DepositWithdraw/blocktrades/BlockTradesBridgeDepositRequest.jsx (<- Module uses injected variables (Buffer)) */
