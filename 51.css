@@ -1,14 +1,17 @@
 .slider-holder {
   position: relative;
+  max-width: 1280px;
   margin: auto;
 }
 
 .slider-holder .img-content {
   width: 100%;
   height: 100%;
+  max-width: 1280px;
 }
 
 .slider-holder .img-content img {
+  max-width: 1280px;
   width: 100%;
   height: 100%;
 }
@@ -117,6 +120,10 @@
   font-size: 14px;
 }
 
+.button.primery-button:hover {
+  background: linear-gradient(90deg, #ffc175, #ff9648);
+}
+
 .btn-coming-soon {
   border: 1px solid #ffc175;
   color: #ffc175;
@@ -173,6 +180,18 @@
   padding: 5px;
 }
 
+.pin .button.finish {
+  background: transparent;
+  border: 1px solid #e7ac5f;
+  color: #e7ac5f;
+}
+
+.pin .button.finish:hover {
+  background: #e7ac5f !important;
+  border: 1px solid #e7ac5f;
+  color: #fff;
+}
+
 .pin .info-holder {
   height: 100%;
   width: 100%;
@@ -180,10 +199,17 @@
   color: #fff;
 }
 
+.pin .info-holder .time {
+  margin-right: 5px;
+}
+
 .pin .info-holder .title {
   color: #fff;
   font-size: 2.3rem;
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .pin .info-holder .status-label {
@@ -213,10 +239,6 @@
   color: #fff;
 }
 
-.pin .info-holder .button {
-  margin-top: 16px;
-}
-
 .pin .info-holder .percent-holder-out {
   position: absolute;
   width: 83%;
@@ -233,14 +255,15 @@
   width: 80%;
   height: 10px;
   position: relative;
-  padding: 1px;
+  padding: 2px;
   box-sizing: border-box;
   border-radius: 5px;
 }
 
 .pin .info-holder .percent .percent-in {
   position: absolute;
-  height: 8px;
+  border-radius: 5px;
+  height: 6px;
   width: 30%;
   background: linear-gradient(to right, #e8a95e, #e76637);
 }
@@ -266,6 +289,10 @@
   color: #000;
 }
 
+.waterfall:nth-child(2n) .pin:nth-child(4n+1) .info-holder .main-title-large {
+  max-width: 42%;
+}
+
 .waterfall:nth-child(2n) .pin:nth-child(4n+1) .info-holder img {
   width: 80px;
   height: 80px;
@@ -280,6 +307,11 @@
   margin-top: 40px;
 }
 
+.waterfall:nth-child(2n) .pin:nth-child(4n+1) .info-holder .button {
+  position: absolute;
+  bottom: 100px;
+}
+
 .waterfall:nth-child(2n) .pin:nth-child(4n+2) {
   height: 374px;
   width: 30%;
@@ -292,9 +324,18 @@
   color: #000;
 }
 
+.waterfall:nth-child(2n) .pin:nth-child(4n+2) .info-holder .main-title-large {
+  max-width: 42%;
+}
+
 .waterfall:nth-child(2n) .pin:nth-child(4n+2) .info-holder .adds_keyword {
   font-size: 16px;
   font-weight: 500;
+}
+
+.waterfall:nth-child(2n) .pin:nth-child(4n+2) .info-holder .button {
+  position: absolute;
+  bottom: 100px;
 }
 
 .waterfall:nth-child(2n) .pin:nth-child(4n+3) {
@@ -320,6 +361,7 @@
   line-height: 1.17;
   letter-spacing: normal;
   color: #ffffff;
+  display: block;
 }
 
 .waterfall:nth-child(2n) .pin:nth-child(4n+3) .info-holder .adds_keyword {
@@ -383,7 +425,9 @@
 .waterfall:nth-child(2n) .pin:nth-child(4n+4) .info-holder .title {
   float: right;
   font-size: 1.8rem;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: left;
   width: 60%;
 }
@@ -443,6 +487,7 @@
   line-height: 1.17;
   letter-spacing: normal;
   color: #ffffff;
+  display: block;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+1) .info-holder .adds_keyword {
@@ -473,12 +518,14 @@
   display: block;
   float: none;
   background: #fff;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAAXNSR0IArs4c6QAAAZ5JREFUSA3llksuBFEYhavEAgzFiiyGmaWQmFiErRh2JyyAiAWgnNPpT879b1eZFYlObv+v82LCMPz3z+hfwDRN5yq3eqd6H3rvep/7ykxlD4Z9VvdL87Pud+M4PhDgSYuzPekQ2WaH9mkCJgNWTt5eFODqSML+2HzSM8DPxJznevCuYDBlrjc4J+IMBACc1UKA5/oUz946lYO299ybAD5AokIiCCbslzjGgMtKb63vAAhjBAgDZt8JB4ebK/iKY06ud00ABF2zR7jumVOUMPDrLe/GNAEyPeJZk1yFE7fUw6M2AWwwZ2JRSO4TVw3zVjW5sW8C/GQCOYNU86phbOJr3wXABGFmV8jswNR93rMHn7suACBXCyOee27sLOgH1jVNjONOBdMFQAQSQuyZuRMia2LAYcgMpgvgA0eT0tj7nFM0e5uAq33OxnQBvIRMGAKR3pUHlpm6xDHG9ze9LgBEagYyMQ3BIMiNSpic6V+lde8Ax/7SBzEDbvRn8nq3XetL/5A86m30LtbybHxkvNW7bJZrDr9qvuYP+ie9vgBqUfetRrnmHQAAAABJRU5ErkJggg==) no-repeat;
   color: #000;
   width: 50px;
-  line-height: 20px;
-  height: 20px;
+  line-height: 28px;
+  height: 28px;
   position: absolute;
   margin-top: -40px;
+  background-size: 100% 100%;
 }
 
 .waterfall:nth-child(2n+1) .pin.special .info-holder {
@@ -491,6 +538,10 @@
   height: 374px;
   top: 0;
   left: 40%;
+}
+
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+2) .main-title-large {
+  max-width: 42%;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+2) .info-holder {
@@ -507,11 +558,20 @@
   font-weight: 500;
 }
 
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+2) .info-holder .button {
+  position: absolute;
+  bottom: 100px;
+}
+
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+3) {
   width: 30%;
   height: 374px;
   top: 0;
   left: 70%;
+}
+
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+3) .main-title-large {
+  max-width: 42%;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+3) .info-holder {
@@ -524,8 +584,13 @@
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+3) .info-holder .adds_keyword {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+3) .info-holder .button {
+  position: absolute;
+  bottom: 100px;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+4) {
@@ -553,7 +618,9 @@
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+4) .info-holder .title {
   float: right;
   font-size: 1.8rem;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: left;
   width: 60%;
 }

@@ -6,12 +6,54 @@
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  padding: 1em;
+  padding: 5em;
   width: 90%;
   margin: auto;
   -webkit-column-break-inside: avoid;
           break-inside: avoid;
   color: #fff;
+}
+
+.detail a {
+  color: #fff;
+}
+
+.detail .button.primery-button {
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: linear-gradient(107deg, #ffc478, #ff9143);
+}
+
+.detail .button.primery-button span {
+  vertical-align: middle;
+}
+
+.detail .button.primery-button.waiting {
+  border: 1px solid #e7ac5f;
+  background: transparent;
+  background-image: none;
+  color: #e7ac5f;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .button.primery-button.pre {
+  border: 1px solid #e7ac5f;
+  background: transparent;
+  background-image: none;
+  color: #e7ac5f;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .button.primery-button.pre {
+  border: 1px solid #666;
+  background: transparent;
+  background-image: none;
+  color: #666;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .detail .left-part {
@@ -92,18 +134,6 @@
   color: #fff;
 }
 
-.detail .button.primery-button {
-  height: 40px;
-  border-radius: 4px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-image: linear-gradient(107deg, #ffc478, #ff9143);
-}
-
-.detail .button.primery-button span {
-  vertical-align: middle;
-}
-
 .detail .info-item {
   overflow: hidden;
 }
@@ -148,9 +178,6 @@
 
 .detail .button-holder {
   margin-top: 20px;
-}
-
-.detail .button-holder .disabled {
-  background: gray;
+  margin-bottom: 20px;
 }
 
