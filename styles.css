@@ -13628,29 +13628,29 @@ input:disabled {
   height: auto;
 }
 
-.gateway-records .ReactTable .-pagination input,
-.gateway-records .ReactTable .-pagination select {
+.cybex-records .ReactTable .-pagination input,
+.cybex-records .ReactTable .-pagination select {
   background: inherit;
 }
 
-.gateway-records input, .gateway-records select {
+.cybex-records input, .cybex-records select {
   margin-bottom: 0;
 }
 
-.gateway-records .ReactTable .-pagination .-btn {
+.cybex-records .ReactTable .-pagination .-btn {
   color: #eee;
 }
 
-.gateway-records .ReactTable .rt-td {
+.cybex-records .ReactTable .rt-td {
   text-align: center;
 }
 
-.gateway-records .ReactTable .rt-noData {
+.cybex-records .ReactTable .rt-noData {
   color: #eee;
   background: unset;
 }
 
-.gateway-records .ReactTable .-pageInfo {
+.cybex-records .ReactTable .-pageInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
