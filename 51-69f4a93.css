@@ -35,7 +35,8 @@
 }
 
 .title-container .base-title {
-  color: #e7ac5f;
+  color: #ff9143;
+  font-weight: 900;
 }
 
 .title-container .kyc-btn {
@@ -187,9 +188,9 @@
 }
 
 .pin .button.finish:hover {
-  background: #e7ac5f !important;
-  border: 1px solid #e7ac5f;
-  color: #fff;
+  background: transparent !important;
+  border: 1px solid #ff9143;
+  color: #ff9143;
 }
 
 .pin .info-holder {
@@ -218,6 +219,10 @@
   margin-bottom: 0;
   margin-left: 5px;
   font-size: 1rem;
+}
+
+.pin .info-holder .status-label.ok {
+  color: #ff9143;
 }
 
 .pin .info-holder .proj-desc {
@@ -258,6 +263,8 @@
   padding: 2px;
   box-sizing: border-box;
   border-radius: 5px;
+  background-color: rgba(8, 10, 15, 0.2);
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pin .info-holder .percent .percent-in {
@@ -265,11 +272,14 @@
   border-radius: 5px;
   height: 6px;
   width: 30%;
-  background: linear-gradient(to right, #e8a95e, #e76637);
+  background-image: linear-gradient(to left, #ffc478, #ff9143);
+}
+
+.pin .info-holder .percent .percent-in.finish {
+  background-image: linear-gradient(to left, #aaa, #78819a);
 }
 
 .pin .info-holder .raised {
-  width: 137px;
   height: 20px;
   font-size: 14px;
   font-weight: 500;
@@ -519,7 +529,7 @@
   float: none;
   background: #fff;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAAXNSR0IArs4c6QAAAZ5JREFUSA3llksuBFEYhavEAgzFiiyGmaWQmFiErRh2JyyAiAWgnNPpT879b1eZFYlObv+v82LCMPz3z+hfwDRN5yq3eqd6H3rvep/7ykxlD4Z9VvdL87Pud+M4PhDgSYuzPekQ2WaH9mkCJgNWTt5eFODqSML+2HzSM8DPxJznevCuYDBlrjc4J+IMBACc1UKA5/oUz946lYO299ybAD5AokIiCCbslzjGgMtKb63vAAhjBAgDZt8JB4ebK/iKY06ud00ABF2zR7jumVOUMPDrLe/GNAEyPeJZk1yFE7fUw6M2AWwwZ2JRSO4TVw3zVjW5sW8C/GQCOYNU86phbOJr3wXABGFmV8jswNR93rMHn7suACBXCyOee27sLOgH1jVNjONOBdMFQAQSQuyZuRMia2LAYcgMpgvgA0eT0tj7nFM0e5uAq33OxnQBvIRMGAKR3pUHlpm6xDHG9ze9LgBEagYyMQ3BIMiNSpic6V+lde8Ax/7SBzEDbvRn8nq3XetL/5A86m30LtbybHxkvNW7bJZrDr9qvuYP+ie9vgBqUfetRrnmHQAAAABJRU5ErkJggg==) no-repeat;
-  color: #000;
+  color: #e76536;
   width: 50px;
   line-height: 28px;
   height: 28px;
@@ -531,6 +541,10 @@
 .waterfall:nth-child(2n+1) .pin.special .info-holder {
   background-image: linear-gradient(147deg, #e7ac5f, #e76536);
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
+
+.waterfall:nth-child(2n+1) .pin.special .status-label.ok {
+  color: #fff;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+2) {

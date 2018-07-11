@@ -2,6 +2,53 @@
   background: #b9dbf0;
 }
 
+.training .base-title {
+  width: 562px;
+  height: 114px;
+  font-family: PingFangSC;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #00293f;
+  margin: auto;
+}
+
+.training .title-container {
+  position: relative;
+  height: 300px;
+  width: 700px;
+  padding-top: 90px;
+}
+
+.training .trangle-holder.left {
+  position: absolute;
+  top: 20px;
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+  left: 0;
+}
+
+.training .trangle-holder.right {
+  position: absolute;
+  -webkit-transform: rotateZ(270deg);
+          transform: rotateZ(270deg);
+  bottom: 20px;
+  right: 0;
+}
+
+.training .trangle {
+  width: 0;
+  height: 0;
+  -webkit-transform: skewX(26deg);
+          transform: skewX(26deg);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #ffc175;
+}
+
 .training .step {
   width: 100%;
   text-align: center;
