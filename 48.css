@@ -59,13 +59,6 @@
   list-style-type: initial;
 }
 
-.join-wrapper li .highlight {
-  background: unset;
-  color: unset;
-  -webkit-filter: brightness(2);
-          filter: brightness(2);
-}
-
 .join-wrapper .input-group {
   height: 3.3334em !important;
 }

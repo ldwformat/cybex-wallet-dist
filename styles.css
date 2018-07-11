@@ -14429,8 +14429,8 @@ a {
 }
 
 .cybexDarkTheme .label.warning {
-  color: #ff7f00;
-  border-color: #ff7f00;
+  color: #ff9143;
+  border-color: #ff9143;
 }
 
 .cybexDarkTheme .label.cancel,
@@ -14448,7 +14448,7 @@ a {
 }
 
 .cybexDarkTheme .txtlabel.warning {
-  color: #ff7f00;
+  color: #ff9143;
 }
 
 .cybexDarkTheme .txtlabel.cancel,
@@ -14872,7 +14872,7 @@ a {
 .cybexDarkTheme .has-warning,
 .cybexDarkTheme div.has-warning > label,
 .cybexDarkTheme div.has-warning > label > span {
-  color: #ff7f00;
+  color: #ff9143;
 }
 
 .cybexDarkTheme div.has-error > input,
@@ -15088,7 +15088,7 @@ a {
 }
 
 .cybexDarkTheme .facolor-warning {
-  color: #ff7f00;
+  color: #ff9143;
 }
 
 .cybexDarkTheme .facolor-info {
@@ -15124,7 +15124,7 @@ a {
 }
 
 .cybexDarkTheme .icon.error > svg > path {
-  fill: #ff7f00;
+  fill: #ff9143;
 }
 
 .cybexDarkTheme .circle-wrapper .circle:before {
@@ -15515,7 +15515,7 @@ a {
 }
 
 .cybexDarkTheme tr.margin-row > td.warning {
-  background-color: #b35900 !important;
+  background-color: #f66600 !important;
   color: #444;
   font-weight: bold;
 }
@@ -15590,7 +15590,7 @@ a {
 
 .cybexDarkTheme div.Account_create button.submit-button,
 .cybexDarkTheme div.Account_create div.backup-submit .button {
-  background-color: #ff7f00;
+  background-color: #ff9143;
 }
 
 .cybexDarkTheme div.Account_create label > a {
@@ -15734,7 +15734,7 @@ a {
 
 .cybexDarkTheme .card-list .card-custom.active {
   background-color: #0e121a;
-  color: #994c00;
+  color: #dc5b00;
 }
 
 .cybexDarkTheme .card-list .card-important .card-custom, .cybexDarkTheme .card-list .card-important .card-custom.active {
@@ -15772,7 +15772,7 @@ a {
 
 .cybexDarkTheme .nav .nav-item.active,
 .cybexDarkTheme .nav a.active {
-  color: #ff7f00;
+  color: #ff9143;
 }
 
 .cybexDarkTheme .nav .nav-item.unsupported > td,
@@ -15840,7 +15840,7 @@ a {
 }
 
 .cybexDarkTheme #context-hub a.active {
-  color: #ff7f00;
+  color: #ff9143;
 }
 
 .cybexDarkTheme .table-toggable .entry-main > td:first-child::before {
@@ -15868,7 +15868,7 @@ a {
 }
 
 .cybexDarkTheme .highlight.warning {
-  background: #ff7f00;
+  background: #ff9143;
 }
 
 .cybexDarkTheme .highlight.error {
@@ -15877,6 +15877,13 @@ a {
 
 .cybexDarkTheme .u-userLauncherColor:not([disabled]) {
   background-color: #18bc9c;
+}
+
+.cybexDarkTheme .join-wrapper .highlight {
+  background: unset;
+  color: unset;
+  filter: brightness(1.36);
+  -webkit-filter: brightness(1.36);
 }
 
 .cybexDarkTheme .vest-bottom select.cyb-select {
