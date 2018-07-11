@@ -15879,13 +15879,6 @@ a {
   background-color: #18bc9c;
 }
 
-.cybexDarkTheme .join-wrapper .highlight {
-  background: unset;
-  color: unset;
-  filter: brightness(1.36);
-  -webkit-filter: brightness(1.36);
-}
-
 .cybexDarkTheme .vest-bottom select.cyb-select {
   background-color: transparent;
 }
