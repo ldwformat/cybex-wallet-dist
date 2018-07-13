@@ -1,0 +1,241 @@
+.training {
+  background: #b9dbf0;
+  background-image: url(/723386ec0da7fa0cbb76023c8f421acf.png);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
+.training .base-title {
+  width: 562px;
+  height: 114px;
+  font-family: PingFangSC;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #00293f;
+  margin: auto;
+}
+
+.training .title-container {
+  position: relative;
+  height: 300px;
+  width: 700px;
+  padding-top: 90px;
+}
+
+.training .trangle-holder.left {
+  position: absolute;
+  top: 20px;
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+  left: 0;
+}
+
+.training .trangle-holder.right {
+  position: absolute;
+  -webkit-transform: rotateZ(270deg);
+          transform: rotateZ(270deg);
+  bottom: 20px;
+  right: 0;
+}
+
+.training .trangle {
+  width: 0;
+  height: 0;
+  -webkit-transform: skewX(26deg);
+          transform: skewX(26deg);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #ffc175;
+}
+
+.training .step {
+  width: 100%;
+  text-align: center;
+  height: 71px;
+  font-family: Rubik;
+  font-size: 60px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.training .right-top img, .training .right-middle img, .training .right-bottom img {
+  height: 100%;
+  width: 100%;
+}
+
+.training .content {
+  margin-top: -2px;
+  position: relative;
+  height: 846px;
+  width: 301px;
+  background-color: #0484cb;
+}
+
+.training .content img {
+  width: 174px;
+  margin-left: -87px;
+  left: 50%;
+  position: absolute;
+  top: 80px;
+}
+
+.training .content span {
+  display: block;
+}
+
+.training .content .step-info {
+  width: 226px;
+  font-family: PingFangSC;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  top: 360px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.training .content a {
+  color: #ffc175;
+}
+
+.training .content .spectial {
+  padding-top: 30px;
+  color: #ffc175;
+}
+
+.training .content .last-img {
+  top: 40px;
+}
+
+.training .right-pointer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #0484cb;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  right: -10px;
+  top: 4px;
+}
+
+.training .bottom-pointer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #0484cb;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  margin-left: -20px;
+  left: 50%;
+  bottom: -10px;
+}
+
+.training .container {
+  margin: auto;
+  position: relative;
+  width: 1028px;
+  height: 861px;
+}
+
+.training .container .Combined-Shape {
+  width: 316px;
+  height: 861px;
+  float: left;
+}
+
+.training .container .right-top {
+  width: 708px;
+  height: 411px;
+  background-color: #d8d8d8;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.training .container .right-bottom {
+  width: 708px;
+  height: 411px;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  background-color: #ffffff;
+}
+
+.training .gap {
+  height: 130px;
+  width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+.training .gap .dashed-border {
+  position: absolute;
+  left: 0;
+  width: 140px;
+  height: 100%;
+  border-right: 4px dashed #0484cb;
+}
+
+.training .container-large {
+  margin: auto;
+  position: relative;
+  width: 1028px;
+  height: 1290px;
+}
+
+.training .container-large .content {
+  position: relative;
+  height: 1275px;
+  width: 301px;
+  background-color: #0484cb;
+}
+
+.training .container-large .Combined-Shape {
+  width: 316px;
+  height: 1290px;
+  float: left;
+}
+
+.training .container-large .right-middle {
+  width: 708px;
+  height: 411px;
+  background-color: #d8d8d8;
+  position: absolute;
+  right: 0;
+  top: 433px;
+}
+
+.training .container-large .right-top {
+  width: 708px;
+  height: 411px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.training .container-large .right-bottom {
+  width: 708px;
+  height: 411px;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  background-color: #ffffff;
+}
+
