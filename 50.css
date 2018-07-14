@@ -1,0 +1,285 @@
+.detail {
+  width: 1280px;
+  margin-top: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 5em;
+  width: 90%;
+  margin: auto;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  color: #fff;
+}
+
+.detail a {
+  color: #ff9143;
+  text-decoration: underline;
+}
+
+.detail a:hover {
+  color: #ff9143;
+}
+
+.detail .button.primery-button {
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: linear-gradient(107deg, #ffc478, #ff9143);
+}
+
+.detail .button.primery-button span {
+  vertical-align: middle;
+}
+
+.detail .button.primery-button.waiting {
+  border: 1px solid #e7ac5f;
+  background: transparent;
+  background-image: none;
+  color: #e7ac5f;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .button.primery-button.pre {
+  border: 1px solid #e7ac5f;
+  background: transparent;
+  background-image: none;
+  color: #e7ac5f;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .button.primery-button.reject {
+  border: 1px solid #666;
+  background: transparent;
+  background-image: none;
+  color: #666;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .left-part {
+  width: 60%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.detail .right-part {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.detail .title {
+  height: 45px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.detail .title .main {
+  font-size: 32px;
+}
+
+.detail .title .sub {
+  margin-left: 10px;
+  font-size: 18px;
+  width: 102px;
+  height: 25px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  color: #ff9143;
+}
+
+.detail .title .sub.finish {
+  color: #666;
+}
+
+.detail .kyc-btn-holder {
+  margin-top: 16px;
+}
+
+.detail .can-not-reserve {
+  background: transparent;
+  background-image: none !important;
+  color: #666;
+  border: #666 1px solid;
+}
+
+.detail .info-item {
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+  position: relative;
+}
+
+.detail .info-item .info-title {
+  text-align: justify;
+}
+
+.detail .info-item .info-detail {
+  width: 80%;
+}
+
+.detail .large-time {
+  font-size: 20px;
+  color: #ff9143;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.detail .large-time .info-detail {
+  width: auto;
+  margin-right: 5px;
+}
+
+.detail .large-time .icon-time {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+
+.detail img {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.detail .title {
+  color: #fff;
+}
+
+.detail .info-item {
+  overflow: hidden;
+}
+
+.detail .info-item .info-title {
+  float: left;
+  font-weight: bold;
+}
+
+.detail .info-item .info-detail {
+  float: left;
+  padding-left: 10px;
+}
+
+.detail .info-text {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding-left: 10px;
+  color: #ff9143;
+}
+
+.detail .percent {
+  float: left;
+  width: 80%;
+  height: 10px;
+  position: relative;
+  padding: 2px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000 inset;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.detail .percent .percent-in {
+  position: absolute;
+  height: 6px;
+  width: 30%;
+  border-radius: 3px;
+  background: linear-gradient(to right, #e7ac5f, #e76536);
+}
+
+.detail .percent .percent-in.finish {
+  background: linear-gradient(to right, #999, #ddd);
+}
+
+.detail .button-holder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#ieo-detail-modal {
+  background: #252f44;
+  width: 30%;
+  padding-bottom: 30px;
+}
+
+#ieo-detail-modal h3, #ieo-detail-modal p {
+  text-align: center;
+}
+
+#ieo-detail-modal .detail-modal-btn {
+  height: 40px;
+  color: #fff;
+  width: 50%;
+  bottom: 0;
+  position: absolute;
+  background: #252f44;
+}
+
+#ieo-detail-modal .detail-modal-btn:hover {
+  color: #eee;
+}
+
+#ieo-detail-modal .detail-modal-btn:active {
+  color: #ccc;
+}
+
+#ieo-detail-modal .modal-btn-group {
+  position: relative;
+}
+
+#ieo-detail-modal .divider {
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 2;
+  margin: 0;
+}
+
+#ieo-detail-modal .confirm {
+  left: 0;
+  color: #ffd400;
+}
+
+#ieo-detail-modal .cancel {
+  right: 0;
+}
+
+#ieo-detail-modal .input-item {
+  position: relative;
+  overflow: hidden;
+}
+
+#ieo-detail-modal .error-msg {
+  width: 100%;
+  float: left;
+  color: red;
+  font-weight: 500;
+}
+
+#ieo-detail-modal .enter-info {
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  float: left;
+  width: 60%;
+}
+
+#ieo-detail-modal .description {
+  color: #ffd400;
+}
+
