@@ -9903,7 +9903,7 @@ div.transfer-input.fee-row > button {
   /* Size & position */
   min-width: 200px;
   position: absolute;
-  top: 100%;
+  top: 2.4rem;
   right: 0;
   z-index: 999;
   margin-left: 0;
@@ -9970,8 +9970,6 @@ div.input-wrapper div.floating-dropdown {
   background: transparent;
   position: absolute;
   right: 0;
-  top: 0;
-  bottom: 0;
   text-align: right;
 }
 
@@ -12591,29 +12589,29 @@ input:disabled {
   height: auto;
 }
 
-.cybex-records .ReactTable .-pagination input,
-.cybex-records .ReactTable .-pagination select {
+.gateway-records .ReactTable .-pagination input,
+.gateway-records .ReactTable .-pagination select {
   background: inherit;
 }
 
-.cybex-records input, .cybex-records select {
+.gateway-records input, .gateway-records select {
   margin-bottom: 0;
 }
 
-.cybex-records .ReactTable .-pagination .-btn {
+.gateway-records .ReactTable .-pagination .-btn {
   color: #eee;
 }
 
-.cybex-records .ReactTable .rt-td {
+.gateway-records .ReactTable .rt-td {
   text-align: center;
 }
 
-.cybex-records .ReactTable .rt-noData {
+.gateway-records .ReactTable .rt-noData {
   color: #eee;
   background: unset;
 }
 
-.cybex-records .ReactTable .-pageInfo {
+.gateway-records .ReactTable .-pageInfo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -13254,15 +13252,6 @@ a {
 
 #mobile-menu {
   z-index: 300;
-}
-
-.account-selector .form-field {
-  -ms-flex: 1;
-      flex: 1;
-}
-
-#transaction_confirm_modal .button-group {
-  width: 100%;
 }
 
 .olDarkTheme .gate_fee .amount-selector {
