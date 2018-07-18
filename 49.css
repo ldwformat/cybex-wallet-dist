@@ -1,0 +1,72 @@
+.join-container {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.join-container .detail-join-btn {
+  width: 8rem;
+  height: 30px;
+  color: #000;
+  margin-right: 1rem;
+}
+
+.join-container .detail-join-btn:hover {
+  background: #eee;
+}
+
+.join-container .detail-join-btn:active {
+  background: #ccc;
+}
+
+.join-container .input-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.join-container .error-msg {
+  width: 100%;
+  float: left;
+  color: red;
+  font-weight: 500;
+}
+
+.join-container .enter-info {
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  float: left;
+  width: 60%;
+}
+
+.join-container .btn-group {
+  float: left;
+  width: 30%;
+}
+
+.join-container .description {
+  color: #ffd400;
+}
+
+.join-wrapper {
+  padding: 0 1em;
+}
+
+.join-wrapper .illustration-list {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+.join-wrapper li {
+  list-style-type: initial;
+}
+
+.join-wrapper li .highlight {
+  background: unset;
+  color: unset;
+  -webkit-filter: brightness(2);
+          filter: brightness(2);
+}
+
+.join-wrapper .input-group {
+  height: 3.3334em !important;
+}
+
