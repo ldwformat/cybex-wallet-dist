@@ -210,3 +210,33 @@
   margin-bottom: 20px;
 }
 
+.detail.en .left-part {
+  width: 60%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.detail.en .left-part .info-title {
+  text-align: justify;
+}
+
+.detail.en .left-part .info-detail {
+  width: 80%;
+}
+
+.detail.en .right-part {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.detail.en .right-part .info-title {
+  text-align: justify;
+  width: 30%;
+}
+
+.detail.en .right-part .info-detail {
+  width: 70%;
+}
+
