@@ -173,7 +173,7 @@
   \**********************************************************/
 /*! exports provided: default */
 /*! exports used: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Account/AccountPage.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Gateway/BaseModal.tsx because of ./components/Gateway/Gateway.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/common/utils.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayConfig.ts */
 /*! ModuleConcatenation bailout: Cannot concat with ./services/GatewayService.ts */
