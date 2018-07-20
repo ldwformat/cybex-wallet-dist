@@ -30,6 +30,10 @@
   background-image: linear-gradient(107deg, #ffc478, #ff9143);
 }
 
+.detail .button.primery-button a {
+  text-decoration: none;
+}
+
 .detail .button.primery-button span {
   vertical-align: middle;
 }
@@ -57,6 +61,15 @@
   background: transparent;
   background-image: none;
   color: #666;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.detail .button.primery-button.disabled {
+  border: 1px solid #e7ac5f;
+  background: transparent;
+  background-image: none;
+  color: #e7ac5f;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -238,5 +251,35 @@
 
 .detail.en .right-part .info-detail {
   width: 70%;
+}
+
+.detail.zh .left-part {
+  width: 60%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.detail.zh .left-part .info-title {
+  text-align: justify;
+}
+
+.detail.zh .left-part .info-detail {
+  width: 80%;
+}
+
+.detail.zh .right-part {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.detail.zh .right-part .info-title {
+  text-align: justify;
+  width: 25%;
+}
+
+.detail.zh .right-part .info-detail {
+  width: 75%;
 }
 
