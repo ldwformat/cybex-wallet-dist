@@ -277,6 +277,7 @@
 .detail.zh .right-part .info-title {
   text-align: justify;
   width: 25%;
+  max-width: 100px;
 }
 
 .detail.zh .right-part .info-detail {
