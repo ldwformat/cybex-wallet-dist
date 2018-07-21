@@ -479,8 +479,8 @@ var n=r(/*! base64-js */136),i=r(/*! ieee754 */135),o=r(/*! isarray */71);functi
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ObjectId.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/TransactionBuilder.js (<- Module uses injected variables (Buffer)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/index.js because of ./cybex/cybexjs/serializer/src/types.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/BrainKey.js because of ./cybex/cybexjs/serializer/src/types.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/index.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/BrainKey.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/KeyUtils.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/PrivateKey.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/PublicKey.js (<- Module uses injected variables (Buffer)) */
