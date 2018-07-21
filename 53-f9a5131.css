@@ -349,16 +349,16 @@
   text-align: justify;
 }
 
-.detail .title {
+.detail.mock .title {
   height: unset;
   white-space: nowrap;
 }
 
-.detail .title > span:not(.main)::before {
+.detail.mock .title > span:not(.main)::before {
   content: "[";
 }
 
-.detail .title > span:not(.main)::after {
+.detail.mock .title > span:not(.main)::after {
   content: "]";
 }
 
