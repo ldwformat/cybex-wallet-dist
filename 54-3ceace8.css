@@ -522,6 +522,16 @@
   color: #000;
 }
 
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+1) .info-holder .percent-holder-out {
+  position: absolute;
+  width: 83%;
+  bottom: 32px;
+}
+
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+1) .info-holder .percent-holder-out .percent-holder {
+  margin-top: 0;
+}
+
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+1) .info-holder .title {
   width: 315px;
   height: 42px;
@@ -685,6 +695,10 @@
   width: 60%;
   padding-left: 20px;
   margin-top: 0;
+}
+
+.waterfall:nth-child(2n+1) .pin:nth-child(4n+4) .info-holder .title .span-status {
+  width: 80%;
 }
 
 .waterfall:nth-child(2n+1) .pin:nth-child(4n+4) .info-holder .keyword-holder {
