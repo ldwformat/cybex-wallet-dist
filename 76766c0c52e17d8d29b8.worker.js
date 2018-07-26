@@ -474,8 +474,8 @@ var n=r(/*! base64-js */136),i=r(/*! ieee754 */135),o=r(/*! isarray */71);functi
 /*! no exports provided */
 /*! all exports used */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/assert/assert.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./cybex/cybexjs/ecc/src/address.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./cybex/cybexjs/ecc/src/address.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./cybex/cybexjs/serializer/src/types.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ObjectId.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/TransactionBuilder.js (<- Module uses injected variables (Buffer)) */
@@ -486,7 +486,7 @@ var n=r(/*! base64-js */136),i=r(/*! ieee754 */135),o=r(/*! isarray */71);functi
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/PublicKey.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/address.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/aes.js (<- Module uses injected variables (Buffer)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/hash.js because of ./cybex/cybexjs/ecc/src/address.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/hash.js because of ./cybex/cybexjs/ecc/src/aes.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/ecc/src/signature.js (<- Module uses injected variables (Buffer)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/serializer/index.js because of ./cybex/cybexjs/chain/src/TransactionBuilder.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/serializer/src/FastParser.js (<- Module uses injected variables (Buffer)) */
