@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{1970:
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{1966:
 /*!*****************************!*\
   !*** ./components/Help.jsx ***!
   \*****************************/

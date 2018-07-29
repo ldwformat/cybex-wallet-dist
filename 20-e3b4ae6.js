@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{1958:
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{1954:
 /*!**************************************************************!*\
   !*** ./components/Blockchain/BlockContainer.jsx + 3 modules ***!
   \**************************************************************/
