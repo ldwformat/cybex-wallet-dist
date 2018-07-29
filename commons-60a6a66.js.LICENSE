@@ -1,0 +1,115 @@
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * UTF-8 validate: UTF-8 validation for WebSockets.
+ * Copyright(c) 2015 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * bufferutil: WebSocket buffer utils
+ * Copyright(c) 2015 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/**
+ * @license long.js (c) 2013 Daniel Wirtz <dcode@dcode.io>
+ * Released under the Apache License, Version 2.0
+ * see: https://github.com/dcodeIO/long.js for details
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*! bignumber.js v4.1.0 https://github.com/MikeMcl/bignumber.js/LICENCE */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/**
+ * @license
+ * lodash 3.10.1 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modern -d -o ./index.js`
+ * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+//! © 2015 Nathan Rugg <nmrugg@gmail.com> | MIT
+
+/**
+ * @license bytebuffer.js (c) 2015 Daniel Wirtz <dcode@dcode.io>
+ * Backing buffer: ArrayBuffer, Accessor: Uint8Array
+ * Released under the Apache License, Version 2.0
+ * see: https://github.com/dcodeIO/bytebuffer.js for details
+ */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*!
+ * ws: a node.js websocket client
+ * Copyright(c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+ * MIT Licensed
+ */
+
+/*! @preserve
+ * numeral.js
+ * version : 2.0.6
+ * author : Adam Draper
+ * license : MIT
+ * http://adamwdraper.github.com/Numeral-js/
+ */
+
+/*!
+ * Bowser - a browser detector
+ * https://github.com/ded/bowser
+ * MIT License | (c) Dustin Diaz 2015
+ */
