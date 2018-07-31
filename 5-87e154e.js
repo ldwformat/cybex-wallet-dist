@@ -45,7 +45,7 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./actions/WalletUnlockActions.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./alt-instance.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./components/Utility/FormattedAsset.jsx */
-/*! ModuleConcatenation bailout: Cannot concat with ./components/Wallet/BalanceClaimActive.jsx because of ./components/Settings/WalletSettings.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./components/Wallet/BalanceClaimActive.jsx because of ./components/Wallet/ExistingAccount.jsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./lib/alt-react/lib/index.js (<- Module is not an ECMAScript module) */

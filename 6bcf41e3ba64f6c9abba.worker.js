@@ -1661,8 +1661,8 @@ var n=r(/*! base64-js */425),i=r(/*! ieee754 */424),o=r(/*! isarray */232);funct
 /*! no exports provided */
 /*! all exports used */
 /*! ModuleConcatenation bailout: Cannot concat with ../node_modules/assert/assert.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./cybex/cybexjs-ws/src/ApiInstances.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./cybex/cybexjs/serializer/src/types.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./stores/NetworkStore.ts because of ./cybex/cybexjs/ecc/src/address.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs-ws/index-umd.js because of ./cybex/cybexjs/ecc/src/address.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ChainTypes.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/ObjectId.js because of ./cybex/cybexjs/serializer/src/types.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./cybex/cybexjs/chain/src/TransactionBuilder.js (<- Module uses injected variables (Buffer)) */
